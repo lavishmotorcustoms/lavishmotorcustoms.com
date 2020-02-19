@@ -343,25 +343,6 @@ $(document).ready(function (e) {
         $('#quantity1').val(parseInt($('#quantity1').val(), 10) + 1);
     });
     /* -------------------------------------
-     Google Map
-     -------------------------------------- */
-    $("#tg-location-map").gmap3({
-        marker: {
-            address: "1600 Elizabeth St, Melbourne, Victoria, Australia",
-            options: {
-                title: "Robert Frost Elementary School",
-                icon: new google.maps.MarkerImage("images/icon-map-marker.png"),
-            }
-        },
-        map: {
-            options: {
-                zoom: 16,
-                scrollwheel: false,
-                disableDoubleClickZoom: true,
-            }
-        },
-    });
-    /* -------------------------------------
      COMMING SOON COUNTER
      -------------------------------------- */
     $('#comming-countdown').countdown({
