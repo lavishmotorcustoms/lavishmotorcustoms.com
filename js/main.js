@@ -29,7 +29,7 @@ $(document).ready(function(e) {
    HOME SLIDER
    -------------------------------------- */
   $("#tg-home-slider").owlCarousel({
-    autoPlay: false,
+    autoPlay: true,
     slideSpeed: 300,
     paginationSpeed: 400,
     singleItem: true,
