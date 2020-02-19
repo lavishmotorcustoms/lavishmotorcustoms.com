@@ -1,0 +1,51 @@
+.owl-theme .owl-controls{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+}
+.owl-theme .owl-controls .owl-pagination{
+	float: left;
+	width: 100%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	color: #fff;
+	width:30px;
+	height:30px;
+	font-size:18px
+	line-height:30px;
+	margin:0 2px 0 0;
+	text-align:center;
+	background: #272727;
+	display: inline-block;
+	vertical-align:middle;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{text-decoration: none;}
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 3px;
+}
+.owl-theme .owl-controls .owl-page span{
+	width: 17px;
+	height: 10px;
+	display: block;
+	background: #737373;
+	transform: skew(20deg);
+	-o-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-webkit-transform: skew(20deg);
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{background: #1290d9;}
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 10px;
+}
+.owl-item.loading{
+	min-height: 150px;
+	background: url(../images/AjaxLoader.gif) no-repeat center center
+}
