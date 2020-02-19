@@ -19,7 +19,7 @@
 }
 .owl-carousel .owl-wrapper-outer{
 	width: 100%;
-	overflow: hidden;
+	overflow: inherit;
 	padding: 0 0 1px;
 	position: relative;
 }

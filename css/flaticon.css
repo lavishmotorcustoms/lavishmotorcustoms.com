@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-size: 20px;
+	font-style: normal;
+	/*margin-left: 20px;*/
+}
+.flaticon-back28:before {content: "\e000";}
+.flaticon-button40:before {content: "\e001";}
+.flaticon-car36:before {content: "\e002";}
+.flaticon-checked8:before {content: "\e003";}
+.flaticon-clock104:before {content: "\e004";}
+.flaticon-close33:before {content: "\e005";}
+.flaticon-direction196:before {content: "\e006";}
+.flaticon-garage19:before {content: "\e007";}
+.flaticon-gasoline14:before {content: "\e008";}
+.flaticon-hand209:before {content: "\e009";}
+.flaticon-heart365:before {content: "\e00a";}
+.flaticon-pointer45:before {content: "\e00b";}
+.flaticon-quotation2:before {content: "\e00c";}
+.flaticon-repair25:before {content: "\e00d";}
+.flaticon-search74:before {content: "\e00e";}
+.flaticon-stars64:before {content: "\e00f";}
+.flaticon-telephone60:before {content: "\e010";}
